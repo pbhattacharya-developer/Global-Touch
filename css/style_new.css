@@ -1,0 +1,36 @@
+header{
+	background-color: #344;
+	position: fixed;
+	top: 0px;
+	z-index: 500;
+}
+nav{
+	
+	margin-top: 40px;
+	height: 80px;
+}
+
+@media only screen and (max-width: 768px)
+{
+	nav{
+		margin-top: 94px;
+	}
+
+
+}
+footer{
+	background-color: #000;
+	color: white;
+	padding: 10px;
+}
+
+.banner{
+	margin-top: 136px;
+}
+@media only screen and (max-width: 768px)
+{
+	.banner{
+		margin-top: 190px;
+	}
+
+}
